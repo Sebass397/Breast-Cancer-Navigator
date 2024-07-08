@@ -1,0 +1,636 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		DDBF90482C3AFD3400E93479 /* Legal.Disclaimer.View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBF90472C3AFD3400E93479 /* Legal.Disclaimer.View.swift */; };
+		DDBF904A2C3AFD5C00E93479 /* Welcome.View.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBF90492C3AFD5C00E93479 /* Welcome.View.swift */; };
+		DDBF904C2C3B362F00E93479 /* TreatmentPlanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBF904B2C3B362E00E93479 /* TreatmentPlanView.swift */; };
+		DDBF904E2C3B3E6300E93479 /* TreatmentAlgorithm.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDBF904D2C3B3E6300E93479 /* TreatmentAlgorithm.swift */; };
+		DDCA589A2C38BDD90004D0C4 /* Breast_Cancer_NavigatorApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCA58992C38BDD90004D0C4 /* Breast_Cancer_NavigatorApp.swift */; };
+		DDCA589C2C38BDD90004D0C4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCA589B2C38BDD90004D0C4 /* ContentView.swift */; };
+		DDCA589E2C38BDD90004D0C4 /* Item.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCA589D2C38BDD90004D0C4 /* Item.swift */; };
+		DDCA58A02C38BDDF0004D0C4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDCA589F2C38BDDF0004D0C4 /* Assets.xcassets */; };
+		DDCA58A42C38BDDF0004D0C4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DDCA58A32C38BDDF0004D0C4 /* Preview Assets.xcassets */; };
+		DDCA58AE2C38BDDF0004D0C4 /* Breast_Cancer_NavigatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCA58AD2C38BDDF0004D0C4 /* Breast_Cancer_NavigatorTests.swift */; };
+		DDCA58B82C38BDDF0004D0C4 /* Breast_Cancer_NavigatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCA58B72C38BDDF0004D0C4 /* Breast_Cancer_NavigatorUITests.swift */; };
+		DDCA58BA2C38BDDF0004D0C4 /* Breast_Cancer_NavigatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDCA58B92C38BDDF0004D0C4 /* Breast_Cancer_NavigatorUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		DDCA58AA2C38BDDF0004D0C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDCA588E2C38BDD80004D0C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDCA58952C38BDD80004D0C4;
+			remoteInfo = "Breast Cancer Navigator";
+		};
+		DDCA58B42C38BDDF0004D0C4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = DDCA588E2C38BDD80004D0C4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = DDCA58952C38BDD80004D0C4;
+			remoteInfo = "Breast Cancer Navigator";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		DDBF90472C3AFD3400E93479 /* Legal.Disclaimer.View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Legal.Disclaimer.View.swift; sourceTree = "<group>"; };
+		DDBF90492C3AFD5C00E93479 /* Welcome.View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Welcome.View.swift; sourceTree = "<group>"; };
+		DDBF904B2C3B362E00E93479 /* TreatmentPlanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentPlanView.swift; sourceTree = "<group>"; };
+		DDBF904D2C3B3E6300E93479 /* TreatmentAlgorithm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TreatmentAlgorithm.swift; sourceTree = "<group>"; };
+		DDCA58962C38BDD90004D0C4 /* Breast Cancer Navigator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Breast Cancer Navigator.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCA58992C38BDD90004D0C4 /* Breast_Cancer_NavigatorApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breast_Cancer_NavigatorApp.swift; sourceTree = "<group>"; };
+		DDCA589B2C38BDD90004D0C4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		DDCA589D2C38BDD90004D0C4 /* Item.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Item.swift; sourceTree = "<group>"; };
+		DDCA589F2C38BDDF0004D0C4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		DDCA58A12C38BDDF0004D0C4 /* Breast_Cancer_Navigator.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Breast_Cancer_Navigator.entitlements; sourceTree = "<group>"; };
+		DDCA58A32C38BDDF0004D0C4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		DDCA58A92C38BDDF0004D0C4 /* Breast Cancer NavigatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Breast Cancer NavigatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCA58AD2C38BDDF0004D0C4 /* Breast_Cancer_NavigatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breast_Cancer_NavigatorTests.swift; sourceTree = "<group>"; };
+		DDCA58B32C38BDDF0004D0C4 /* Breast Cancer NavigatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Breast Cancer NavigatorUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDCA58B72C38BDDF0004D0C4 /* Breast_Cancer_NavigatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breast_Cancer_NavigatorUITests.swift; sourceTree = "<group>"; };
+		DDCA58B92C38BDDF0004D0C4 /* Breast_Cancer_NavigatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Breast_Cancer_NavigatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		DDCA58932C38BDD80004D0C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCA58A62C38BDDF0004D0C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCA58B02C38BDDF0004D0C4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		DDCA588D2C38BDD80004D0C4 = {
+			isa = PBXGroup;
+			children = (
+				DDCA58982C38BDD90004D0C4 /* Breast Cancer Navigator */,
+				DDCA58AC2C38BDDF0004D0C4 /* Breast Cancer NavigatorTests */,
+				DDCA58B62C38BDDF0004D0C4 /* Breast Cancer NavigatorUITests */,
+				DDCA58972C38BDD90004D0C4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		DDCA58972C38BDD90004D0C4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				DDCA58962C38BDD90004D0C4 /* Breast Cancer Navigator.app */,
+				DDCA58A92C38BDDF0004D0C4 /* Breast Cancer NavigatorTests.xctest */,
+				DDCA58B32C38BDDF0004D0C4 /* Breast Cancer NavigatorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		DDCA58982C38BDD90004D0C4 /* Breast Cancer Navigator */ = {
+			isa = PBXGroup;
+			children = (
+				DDCA58992C38BDD90004D0C4 /* Breast_Cancer_NavigatorApp.swift */,
+				DDBF90492C3AFD5C00E93479 /* Welcome.View.swift */,
+				DDBF90472C3AFD3400E93479 /* Legal.Disclaimer.View.swift */,
+				DDCA589B2C38BDD90004D0C4 /* ContentView.swift */,
+				DDBF904D2C3B3E6300E93479 /* TreatmentAlgorithm.swift */,
+				DDBF904B2C3B362E00E93479 /* TreatmentPlanView.swift */,
+				DDCA589D2C38BDD90004D0C4 /* Item.swift */,
+				DDCA589F2C38BDDF0004D0C4 /* Assets.xcassets */,
+				DDCA58A12C38BDDF0004D0C4 /* Breast_Cancer_Navigator.entitlements */,
+				DDCA58A22C38BDDF0004D0C4 /* Preview Content */,
+			);
+			path = "Breast Cancer Navigator";
+			sourceTree = "<group>";
+		};
+		DDCA58A22C38BDDF0004D0C4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				DDCA58A32C38BDDF0004D0C4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		DDCA58AC2C38BDDF0004D0C4 /* Breast Cancer NavigatorTests */ = {
+			isa = PBXGroup;
+			children = (
+				DDCA58AD2C38BDDF0004D0C4 /* Breast_Cancer_NavigatorTests.swift */,
+			);
+			path = "Breast Cancer NavigatorTests";
+			sourceTree = "<group>";
+		};
+		DDCA58B62C38BDDF0004D0C4 /* Breast Cancer NavigatorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				DDCA58B72C38BDDF0004D0C4 /* Breast_Cancer_NavigatorUITests.swift */,
+				DDCA58B92C38BDDF0004D0C4 /* Breast_Cancer_NavigatorUITestsLaunchTests.swift */,
+			);
+			path = "Breast Cancer NavigatorUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		DDCA58952C38BDD80004D0C4 /* Breast Cancer Navigator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDCA58BD2C38BDDF0004D0C4 /* Build configuration list for PBXNativeTarget "Breast Cancer Navigator" */;
+			buildPhases = (
+				DDCA58922C38BDD80004D0C4 /* Sources */,
+				DDCA58932C38BDD80004D0C4 /* Frameworks */,
+				DDCA58942C38BDD80004D0C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Breast Cancer Navigator";
+			productName = "Breast Cancer Navigator";
+			productReference = DDCA58962C38BDD90004D0C4 /* Breast Cancer Navigator.app */;
+			productType = "com.apple.product-type.application";
+		};
+		DDCA58A82C38BDDF0004D0C4 /* Breast Cancer NavigatorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDCA58C02C38BDDF0004D0C4 /* Build configuration list for PBXNativeTarget "Breast Cancer NavigatorTests" */;
+			buildPhases = (
+				DDCA58A52C38BDDF0004D0C4 /* Sources */,
+				DDCA58A62C38BDDF0004D0C4 /* Frameworks */,
+				DDCA58A72C38BDDF0004D0C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDCA58AB2C38BDDF0004D0C4 /* PBXTargetDependency */,
+			);
+			name = "Breast Cancer NavigatorTests";
+			productName = "Breast Cancer NavigatorTests";
+			productReference = DDCA58A92C38BDDF0004D0C4 /* Breast Cancer NavigatorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		DDCA58B22C38BDDF0004D0C4 /* Breast Cancer NavigatorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = DDCA58C32C38BDDF0004D0C4 /* Build configuration list for PBXNativeTarget "Breast Cancer NavigatorUITests" */;
+			buildPhases = (
+				DDCA58AF2C38BDDF0004D0C4 /* Sources */,
+				DDCA58B02C38BDDF0004D0C4 /* Frameworks */,
+				DDCA58B12C38BDDF0004D0C4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				DDCA58B52C38BDDF0004D0C4 /* PBXTargetDependency */,
+			);
+			name = "Breast Cancer NavigatorUITests";
+			productName = "Breast Cancer NavigatorUITests";
+			productReference = DDCA58B32C38BDDF0004D0C4 /* Breast Cancer NavigatorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		DDCA588E2C38BDD80004D0C4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					DDCA58952C38BDD80004D0C4 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					DDCA58A82C38BDDF0004D0C4 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DDCA58952C38BDD80004D0C4;
+					};
+					DDCA58B22C38BDDF0004D0C4 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = DDCA58952C38BDD80004D0C4;
+					};
+				};
+			};
+			buildConfigurationList = DDCA58912C38BDD80004D0C4 /* Build configuration list for PBXProject "Breast Cancer Navigator" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = DDCA588D2C38BDD80004D0C4;
+			productRefGroup = DDCA58972C38BDD90004D0C4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				DDCA58952C38BDD80004D0C4 /* Breast Cancer Navigator */,
+				DDCA58A82C38BDDF0004D0C4 /* Breast Cancer NavigatorTests */,
+				DDCA58B22C38BDDF0004D0C4 /* Breast Cancer NavigatorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		DDCA58942C38BDD80004D0C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCA58A42C38BDDF0004D0C4 /* Preview Assets.xcassets in Resources */,
+				DDCA58A02C38BDDF0004D0C4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCA58A72C38BDDF0004D0C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCA58B12C38BDDF0004D0C4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		DDCA58922C38BDD80004D0C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDBF904A2C3AFD5C00E93479 /* Welcome.View.swift in Sources */,
+				DDBF90482C3AFD3400E93479 /* Legal.Disclaimer.View.swift in Sources */,
+				DDCA589C2C38BDD90004D0C4 /* ContentView.swift in Sources */,
+				DDBF904C2C3B362F00E93479 /* TreatmentPlanView.swift in Sources */,
+				DDCA589E2C38BDD90004D0C4 /* Item.swift in Sources */,
+				DDBF904E2C3B3E6300E93479 /* TreatmentAlgorithm.swift in Sources */,
+				DDCA589A2C38BDD90004D0C4 /* Breast_Cancer_NavigatorApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCA58A52C38BDDF0004D0C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCA58AE2C38BDDF0004D0C4 /* Breast_Cancer_NavigatorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DDCA58AF2C38BDDF0004D0C4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				DDCA58B82C38BDDF0004D0C4 /* Breast_Cancer_NavigatorUITests.swift in Sources */,
+				DDCA58BA2C38BDDF0004D0C4 /* Breast_Cancer_NavigatorUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		DDCA58AB2C38BDDF0004D0C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDCA58952C38BDD80004D0C4 /* Breast Cancer Navigator */;
+			targetProxy = DDCA58AA2C38BDDF0004D0C4 /* PBXContainerItemProxy */;
+		};
+		DDCA58B52C38BDDF0004D0C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = DDCA58952C38BDD80004D0C4 /* Breast Cancer Navigator */;
+			targetProxy = DDCA58B42C38BDDF0004D0C4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		DDCA58BB2C38BDDF0004D0C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		DDCA58BC2C38BDDF0004D0C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		DDCA58BE2C38BDDF0004D0C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Breast Cancer Navigator/Breast_Cancer_Navigator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Breast Cancer Navigator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BCN.Breast-Cancer-Navigator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		DDCA58BF2C38BDDF0004D0C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Breast Cancer Navigator/Breast_Cancer_Navigator.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Breast Cancer Navigator/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BCN.Breast-Cancer-Navigator";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+		DDCA58C12C38BDDF0004D0C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BCN.Breast-Cancer-NavigatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Breast Cancer Navigator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Breast Cancer Navigator";
+			};
+			name = Debug;
+		};
+		DDCA58C22C38BDDF0004D0C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BCN.Breast-Cancer-NavigatorTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Breast Cancer Navigator.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Breast Cancer Navigator";
+			};
+			name = Release;
+		};
+		DDCA58C42C38BDDF0004D0C4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BCN.Breast-Cancer-NavigatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Breast Cancer Navigator";
+			};
+			name = Debug;
+		};
+		DDCA58C52C38BDDF0004D0C4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MACOSX_DEPLOYMENT_TARGET = 14.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "BCN.Breast-Cancer-NavigatorUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Breast Cancer Navigator";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		DDCA58912C38BDD80004D0C4 /* Build configuration list for PBXProject "Breast Cancer Navigator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCA58BB2C38BDDF0004D0C4 /* Debug */,
+				DDCA58BC2C38BDDF0004D0C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDCA58BD2C38BDDF0004D0C4 /* Build configuration list for PBXNativeTarget "Breast Cancer Navigator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCA58BE2C38BDDF0004D0C4 /* Debug */,
+				DDCA58BF2C38BDDF0004D0C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDCA58C02C38BDDF0004D0C4 /* Build configuration list for PBXNativeTarget "Breast Cancer NavigatorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCA58C12C38BDDF0004D0C4 /* Debug */,
+				DDCA58C22C38BDDF0004D0C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		DDCA58C32C38BDDF0004D0C4 /* Build configuration list for PBXNativeTarget "Breast Cancer NavigatorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DDCA58C42C38BDDF0004D0C4 /* Debug */,
+				DDCA58C52C38BDDF0004D0C4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = DDCA588E2C38BDD80004D0C4 /* Project object */;
+}
